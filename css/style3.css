@@ -49,3 +49,10 @@ p {
 .col {
     width: fit-content;
 }
+/* filter and sorting */
+.dropdown {
+    padding: 10px;
+}
+.btn-group {
+    padding: 10px;
+}
