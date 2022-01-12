@@ -11,6 +11,9 @@ body {
 }
 
 /* jumbotron */
+.display-4 {
+    align-items: center;
+}
 h1 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: italic;
@@ -24,12 +27,65 @@ p {
     font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
     font-size: smaller;
 }
+.jumbotron {
+    align-self: center;
+}
 
 /* free patterns */
 .card-img-top {
     max-width:300px;
     height:auto;
 }
-.card-deck {
+.cardd {
     background-color: #EFCFD0;
+}
+.card-titlee {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #F6E7E8;
+}
+.card-footerr {
+    font-family: "merriweather", Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-style: italic;
+    background-color: #F6E7E8;
+}
+.card-bodyy {
+    background-color: #F6E7E8;
+}
+.card-deckk {
+    background-color: #EFCFD0;
+    display: flex;
+    padding: 20px;
+}
+
+/* tutorials */
+.row {
+    background-color: #DDE0B6;
+    padding: 20px;
+}
+
+/* completed projects */
+.card {
+    background-color: #F5A883;
+}
+.card-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.card-footer {
+    font-family: "merriweather", Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    font-style: italic;
+    background-color: #F6CCB8;
+}
+.card-body {
+    background-color: #F6CCB8;
+}
+.card-deck {
+    background-color: #F5A883;
+    display: flex;
+    padding: 20px;
 }
