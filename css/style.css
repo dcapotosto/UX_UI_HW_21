@@ -95,7 +95,13 @@ p {
     padding: 20px;
 }
 /* ABOUT ME */
-.profileImage {
-    max-width: 300px;
+#profileImage {
+    width: 300px;
     height: auto;
-}
+    display: inline-flexbox;
+    padding: 30px;
+    margin-left: 200px;
+  }
+  .aboutMe {
+      align-self: right;
+  }
